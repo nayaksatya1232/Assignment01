@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0%;
+    background-color: rgb(168, 230, 250);
+}
+div.container{
+    margin: 0% 20%;
+    padding: 15px;
+    /* border: 1px solid black; */
+    font-size: large;
+    font-family: 'Lucida Sans';
+}
+
+.row{
+    width: 100%;
+    padding: 10px 0px;
+    /* border: 1px solid black; */
+}
+.col{
+    display: inline-block;
+    width: 49%;
+}
+.add-col{
+    display: inline-block;
+    /* : 1px solid black; */
+}
+.questions{
+    margin: 0px 10%;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reg01.css">
+</head>
+<body>
+    
+        <h1 style="text-align: center;color:red">Hospital Survey Form</h1>
+        <h2 style="text-align: center;color:green">Provided By VU Answer</h2>
+    <div class="container">
+        <h3 style="color:green">Student Id:-----</h3>
+        <h3 style="color:green">Student Name:-----</h3>
+        <form method="get" action="registration02.html">
+            <div class="row">
+                <div class="col">
+                    <label for="fname">Patient's First Name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="col" style="padding-left: 0;">
+                    <label for="lname">Patient's Last Name:</label>
+                    <input type="text" id="lname" name="lname"><br>
+                </div>
+            </div>
+            
+            <div class="row">
+                    <label for="fname">Patient's Father/Husband Name:</label>
+                    <input type="text" id="fname" name="fname" size="20"><br>
+            </div>
+            <div class="row">
+                <div class="add-col">
+                    <label for="address">Permanent Address:</label>
+                </div>
+                <div class="add-col" style="margin-left: 15%;">
+                    <textarea id="address" name="address"  style="resize:none;"></textarea><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="add-col">
+                    <label>What is Your Gender:</label>
+                </div>
+                <div class="add-col" style="margin-left: 10%;">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                </div>
+            </div>
+            <div class="row">
+                <label for="age">Patient's Age</label>
+                <input type="text" id="age" name="age" style="margin-left: 15%;" ><br>
+            </div>
+            <div class="row">
+                <label for="mno">Enter Mobile No</label>
+                <input type="text" id="mno" name="mno" style="margin-left: 15%;"><br>
+            </div>
+            <div class="row">
+                <label>Have You Been Dignosed As Covid-19 Positive Patient?</label>
+                <input type="radio" id="yes" name="test" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="test" value="No">
+                <label for="no">No</label><br>
+            </div>
+
+            <h2 style="color: red;">Please select suitable option from Given below:</h2>
+            <div class="questions">
+                <input type="checkbox" id="opt1" name="opt1" value="i am still have a covid-19 symptom"> 
+                <label for="opt1">i am still have a covid-19 symptom</label><br>
+                <input type="checkbox" id="opt2" name="opt1" value="i am still have a covid-19 symptom"> 
+                <label for="opt2">I have no other symptoms but dry cough</label><br>
+                <input type="checkbox" id="opt3" name="opt1" value="i am still have a covid-19 symptom"> 
+                <label for="opt3">i just feel very tired</label><br>
+                <input type="checkbox" id="opt1" name="opt4" value="i am still have a covid-19 symptom"> 
+                <label for="opt4">i am having a trouble in deep breath</label><br>
+                <input type="checkbox" id="opt1" name="opt5" value="i am still have a covid-19 symptom"> 
+                <label for="opt5">i feel like i am having a tight band wraped around my chest</label><br>
+                <input type="checkbox" id="opt1" name="opt6" value="i am still have a covid-19 symptom"> 
+                <label for="opt6">i am having loss of smell and test</label><br>
+                <input type="text" id="other1" name="other1"> 
+                <label for="other1">Mention Other Feelings</label><br>
+            </div>
+
+            <h2 style="color: red;">Please select suitable option from Given below:</h2>
+            <div class="questions">
+                <input type="checkbox" id="opt1" name="opt1" value="i am still have a covid-19 symptom"> 
+                <label for="opt1">i am still have a covid-19 symptom</label><br>
+                <input type="checkbox" id="opt2" name="opt1" value="i am still have a covid-19 symptom"> 
+                <label for="opt2">i am having headache all the time</label><br>
+                <input type="checkbox" id="opt3" name="opt1" value="i am still have a covid-19 symptom"> 
+                <label for="opt3">i have developed muscle aches</label><br>
+                <input type="checkbox" id="opt1" name="opt4" value="i am still have a covid-19 symptom"> 
+                <label for="opt4">i am having fever inspite of having COVID-19 negative test result</label><br>
+                <input type="text" id="other1" name="other1"> 
+                <label for="other1">Mention Other Feelings</label><br>
+            </div>
+            <br><input type="submit" value="Submit" style="color: rgb(10, 114, 118);padding:5px 8px">
+        </form>
+    </div>
+</body>
+</html>
